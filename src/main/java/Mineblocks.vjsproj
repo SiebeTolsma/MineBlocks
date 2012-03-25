@@ -1,0 +1,34 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BCA16ABA-3733-4C20-90CB-49FA1E2BC71A}</ProjectGuid>
+    <OutputPath>bin\</OutputPath>
+    <OutputType>Library</OutputType>
+    <RootNamespace>net.bot2k3.siebe.Mineblocks</RootNamespace>
+    <AssemblyName>Mineblocks</AssemblyName>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="bukkit, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\target\dependency\bukkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MineblocksPlugin.java" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="plugin.yml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Mechanisms\DrawBridge.java" />
+    <Compile Include="Blocks\IronBlock.java" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualJSharp.targets" />
+</Project>

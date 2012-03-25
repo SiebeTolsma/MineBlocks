@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual J# Express 2005
+Project("{E6FDF86B-F3D1-11D4-8576-0002A516ECE8}") = "Mineblocks", "src\main\java\Mineblocks.vjsproj", "{BCA16ABA-3733-4C20-90CB-49FA1E2BC71A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCA16ABA-3733-4C20-90CB-49FA1E2BC71A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BCA16ABA-3733-4C20-90CB-49FA1E2BC71A}.Release|x86.ActiveCfg = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
